@@ -1,6 +1,9 @@
+
+
+
 def calculate(hourlyDollars):
   numHoursDaily = 4
-  numDaysPerWeek = 2
+  numDaysPerWeek = 5
   numWeeksPerPaycheck = 2
   taxPercent = .079
 
@@ -15,7 +18,7 @@ def calculate(hourlyDollars):
   print("$ after 1 year ", afterTax * 24)
   print("--------------")
 
-hourlyPayOptions =  [13, 15, 16, 17, 18, 19, 20]
+hourlyPayOptions =  [13, 15, 16, 17, 18, 19, 20, 25, 30, 35, 40, 45, 50]
 
 for i in hourlyPayOptions:
   calculate(i)
